@@ -1,0 +1,15 @@
+---
+- name: Config nodeA
+  hosts: nodeA
+  roles:
+    - nodeA
+
+- name: Config nodeB
+  hosts: nodeB
+  roles:
+    - nodeB
+
+- name: Config nodeC
+  hosts: nodeC
+  roles:
+    - nodeC
